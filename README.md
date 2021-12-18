@@ -9,3 +9,5 @@ There are a number of basic commands:
   select_where (requires 4 arguments: existing database name, existing table name, select requested columns, select value which is required in each row)
   shutdown.
 The client can differentiate between the varios different users, but will shutdown if there is an incorrect request made.
+
+The project includes a python validator.
