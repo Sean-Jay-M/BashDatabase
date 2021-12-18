@@ -10,4 +10,4 @@ There are a number of basic commands:
   shutdown.
 The client can differentiate between the varios different users, but will shutdown if there is an incorrect request made.
 
-The project includes a python validator.
+Python validator available upon request.
