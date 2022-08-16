@@ -28,12 +28,18 @@ This application was created by [Sean-Jay-M](https://github.com/Sean-Jay-M).
     OK: tuple inserted
 
 *Select Data*: Allows the user to select which columns they wish to displayed. Utilizing integers to represent the columns. It will display all tuples. 
+    
     $ ./select.sh *databasename* *tablename* *integer1,integer2*
     Display Values
 
 *Select Where*:  Allows the user to select which columns they wish to displayed, with a given value. Utilizing integers to represent the columns. It will display all tuples. 
+    
     $ ./select_where.sh *databasename* *tablename* *integer1,integer2* *given_value*
+
 *shutdown:* Server exits with code of 0.
+
+    $ shutdown
+    the server is shutting down
 
 # Concurrency Control
 
