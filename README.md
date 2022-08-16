@@ -44,12 +44,18 @@ This application was created by [Sean-Jay-M](https://github.com/Sean-Jay-M).
 # Concurrency Control
 
 Concurrency control is present in all of the scripts critical sections. Allowing for the smoothest possible usage for all users, locking processes only when necessary.
+
 Furthermore the concurrency controls which have been put in place follow the conditions for a ‘True Solution’ as the implemented approach follows the following rules: 
+
 •	Mutual Exclusion: One process at most inside the critical section at any time 
+
 •	Progress: A process in execution out of a critical section cannot prevent other processes from entering it. 
+
 If several processes are attempting to enter the critical section at the same time, the decision as to which one will enter it is not indefinitely postponed.
 A process cannot remain within the critical section indefinitely.
+
 •	Bounded Waiting: All processes attempting to enter the CS will eventually do so. 
+
 The ways in which these requirements are met are covered under the ‘Architecture’ heading.
 
 # How To Run
