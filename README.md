@@ -56,7 +56,6 @@ A process cannot remain within the critical section indefinitely.
 
 •	Bounded Waiting: All processes attempting to enter the CS will eventually do so. 
 
-The ways in which these requirements are met are covered under the ‘Architecture’ heading.
 
 # How To Run
 
